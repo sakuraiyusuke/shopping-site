@@ -1,0 +1,242 @@
+
+
+
+
+.body_layout {
+	padding: 0% 8%;
+	/*background-color: #f9f8f6;*/
+}
+
+/*ヘッダー*/
+
+.headmargin {
+	margin: 40px 80px 40px 80px;
+}
+
+
+.header_contents img {
+	margin: 0px 10px 0px 10px;
+}
+
+
+.upperbar p {
+	font-family: AvenirNext;
+	color: #524c3e;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 24px;
+
+}
+
+
+/*メインコンテンツ*/
+
+/*.main {
+	padding: 0% 5% 0% 5%;
+}
+*/
+
+
+
+/*左のコンテンツ*/
+
+
+.titleline {
+	height: 15px;
+	/*width: 100%;*/
+	margin: 30px 0px 30px 0px;
+}
+
+
+
+.item h4 {
+	font-family: HiraKakuPro;
+	color: #000000;
+	font-size: 12.5px;
+	line-height: 18px;
+	padding: 16px;
+
+}
+
+
+
+.shopping_guide {
+	background-color: #ffffff;
+}
+
+
+.shopping_guide h2 {
+	font-family: HiraKakuPro;
+	color: #887f69;
+	font-size: 16px;
+	line-height: 24px;
+
+}
+
+
+.shopping_guide h3 {
+	font-family: HiraKakuPro;
+	color: #887f69;
+	font-size: 12px;
+	line-height: 24px;
+
+}
+
+p {
+	font-family: HiraKakuPro;
+	color: #000000;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+
+/*右のコンテンツ*/
+
+.search {
+	width: 219px;
+	height: 92px;
+	background-color: #ffffff;
+}
+
+form.search input.btn {
+	width: 16px; /* ボタンの幅 */
+	height: 16px; /* ボタンの高さ */
+	padding: 0;
+	background: url(images/top/search_icon.png); /* ボタンの背景 */
+	border: 1px; /* ボタンの境界線 */
+	font-weight: bold;
+	color: #000000;
+	letter-spacing: 0.3em; /* 文字間のスペース */
+}
+
+form.search input.textBox {
+width: 178px; /* テキストボックスの幅 */
+margin: 0 4px 0 5px; /* テキストボックスのマージン（上右下左） */
+padding: 0;
+background-color: #eeeeee;
+border: none; /* テキストボックスの境界線（なし） */
+color: #000000;
+}
+
+
+
+.right_bar {
+	width: 219px;
+	height: 45px;
+	background-color: #887f69;
+	margin: 10px 0px 10px 0px;
+}
+
+.right_bar_moji {
+	padding: 11px;
+	height: 45px;
+}
+
+.bar {
+	margin-left: 100px;
+}
+
+.bar2 {
+	margin-left: 86.5px;
+}
+
+.categorie_bar {
+	width: 219px;
+	height: 45px;
+	background-color: #ffffff;
+}
+
+.categorie_bar h4 {
+	font-family: HiraKakuPro;
+	color: #000000;
+	font-size: 12px;
+	line-height: 18px;
+	padding: 10px;
+}
+
+.categories_bar_icon {
+	margin-left: 105px;
+}
+
+.about {
+	width: 219px;
+	height: 300px;
+	background-color: #ffffff;
+
+}
+
+.about_img {
+	padding-left: 10px;
+
+}
+
+.about h4 {
+	font-family: HiraKakuPro;
+	color: #000000;
+	font-size: 12px;
+	line-height: 18px;
+	padding: 0px 10px 0px 10px;
+
+}
+
+.center {
+	text-align: center;
+}
+
+/*フッター*/
+
+.pagetop {
+	margin: 2% 0% 2% 85%;
+}
+
+
+
+.line {
+	width: 100%;
+	height: 1px;
+	background-color: #887f69;
+}
+
+
+.credits p {
+	text-align: center;
+}
+
+
+.credits2 p {
+	text-align: center;
+	font-family: HiraKakuPro;
+	color: #b8b5ac;
+	font-size: 10px;
+	line-height: 18px;
+	margin:0px 0px 150px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+font-family: AvenirNext;
+color: #524c3e;
+font-size: 13px;
+font-weight: 700;
+line-height: 24px;
+
+*/
+
+
+/*font-family: AvenirNext;
+color: #887f69;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+*/
+
+
