@@ -31,10 +31,10 @@
 
 /*メインコンテンツ*/
 
-/*.main {
-	padding: 0% 5% 0% 5%;
+.main {
+	padding: 0% 0% 0% 8.5%;
 }
-*/
+
 
 
 
@@ -55,13 +55,14 @@
 	font-size: 12.5px;
 	line-height: 18px;
 	padding: 16px;
-
 }
 
 
 
 .shopping_guide {
 	background-color: #ffffff;
+	padding: 1px 15px 53px 15px;
+	margin-top:25px;
 }
 
 
@@ -69,7 +70,7 @@
 	font-family: HiraKakuPro;
 	color: #887f69;
 	font-size: 16px;
-	line-height: 24px;
+	/*line-height: 24px;*/
 
 }
 
@@ -81,6 +82,39 @@
 	line-height: 24px;
 
 }
+
+.shopping_guide2 {
+	background-color: #ffffff;
+	padding:1px 15px 0px 15px;
+	margin-top:25px;
+}
+
+
+.shopping_guide2 h2 {
+	font-family: HiraKakuPro;
+	color: #887f69;
+	font-size: 16px;
+	/*line-height: 24px;*/
+
+}
+
+
+.shopping_guide2 h3 {
+	font-family: HiraKakuPro;
+	color: #887f69;
+	font-size: 12px;
+	line-height: 24px;
+
+}
+
+
+
+
+
+
+
+
+
 
 p {
 	font-family: HiraKakuPro;
@@ -216,27 +250,188 @@ color: #000000;
 
 
 
+/*リストのスタイルシートはここから*/
+
+
+.title_box_list {
+	width: 100%;
+}
+
+.rightboxadd {
+	margin-top: 22.5px;
+}
+
+.list_topbar{
+	width: auto;
+	height: 34px;
+	/*border-radius: 3px;*/
+	background-color: #e8e4da;
+	margin: 0 0 10px 0; 
+}
+
+.list_topbar p{
+	font-family: HiraKakuPro;
+	color: #887f69;
+	font-size: 11px;
+	line-height: 24px;
+	padding:5px;
+	padding-left: 10px;
+}
 
 
 
 
+/*プロダクツコンテンツのシートはここから*/
+
+.products_contents {
+	background-color: white;
+	/*padding: 20px;*/
+}
+
+.midasicontainer {
+	height: 100px;
+	/*background-color: red;*/
+}
+
+.midasicontainerp {
+	font-family: HiraKakuPro;
+	color: #000000;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 40px 0px 25px 55px;
+}
+
+.midasiline {
+width: auto;
+height: 1px;
+background-color: #e3e8cf;
+}
+
+.midasiline2 {
+width: auto;
+height: 1px;
+background-color: #e3e8cf;
+margin:20px 0 20px 0; 
+}
 
 
-/*
-font-family: AvenirNext;
-color: #524c3e;
-font-size: 13px;
-font-weight: 700;
-line-height: 24px;
+.rightsmall {
+	width: 100%;
+	height: 100%;
+}
 
-*/
+.photocontents {
+	margin-top: 30px;
+}
 
 
-/*font-family: AvenirNext;
-color: #887f69;
-font-size: 16px;
-font-weight: 700;
-line-height: 24px;
-*/
+
+
+.photocontents .col-xs-6 {
+	padding-right: 4px;
+	padding-left: 4px;
+}
+
+
+
+.photocontents .col-xs-4 {
+	position: relative;
+    min-height: 1px;
+     padding-right: -15px; 
+    padding-left: 15px;
+}
+
+.syohinnsetumei h2{
+	font-family: HiraKakuPro;
+	color: #887f69;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.syohinnsetumei p{
+	font-family: HiraKakuPro;
+	color: #000000;
+	font-size: 15.5px;
+	line-height: 25px;
+}
+
+
+
+
+/*マトリックス*/
+.graybox {
+	border: solid;
+	border-color:  #e3e8cf;
+	border-width: 0.5px;
+	height: 50px;
+	background-color: #f9f9f5;
+
+}
+
+.grayboxp {
+	border: solid;
+	border-color:  #e3e8cf;
+	border-width: 0.5px;
+	height: 50px;
+	background-color: #f9f9f5;
+}
+
+.grayboxpa {
+	border: solid;
+	border-color: #e3e8cf;
+	border-width: 0.5px;
+	height: 50px;
+}
+
+.matrix {
+	padding:17px; 
+}
+
+.matrix p {
+	font-family: HiraKakuPro;
+	color: #887f69;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+
+.add_to_cart {
+	padding-left: 62px;
+}
+
+
+.price {
+	margin:20px 0 20px 0;
+}
+
+
+
+.price input {
+	height: 40px;
+}
+
+.mojiimg {
+	
+}
+
+
+.grayboxp2 {
+	background-color: white;
+	border: solid;
+	border-color:  #e3e8cf;
+	border-width: 0.5px;
+	height: 50px;	
+}
+
+.grayboxp2 p {
+	text-align: left;
+	
+}
+
+
+
+
 
 
