@@ -6,7 +6,10 @@
     <title></title>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
@@ -14,6 +17,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script> 
     <script src="https://use.fontawesome.com/d1518f9856.js"></script>
+
   </head>
 
 
@@ -22,238 +26,396 @@
 <div class="body_layout">
 
   <body>
-    <header>
-    <div class="headmargin">
-      <img src="images/top/logo.png">
-        <div class="pull-right header_contents">
-          <img src="images/top/menu_login.png">
-          <img src="images/top/menu_cart.png">
-          <img src="images/top/menu_mypage.png">
-          <img src="images/top/menu_guide.png">
-          <img src="images/top/facebook.png">
-          <img src="images/top/insta.png">
+    <header class="container-fluid medium">
+      <div class="row header_contents">
+        <div class="headmargin">
+          <div class="col-md-7 col-lg-7">
+            <img src="images/top/logo.png">
+          </div>
+          <div class="pull-right header_contents col-xs-9 col-md-6 col-lg-6 migi">
+          <div class="header_contents2">
+            <picture>
+              <source media="(max-width: 2600px) and (min-width: 900px)" srcset="images/top/menu_login.png">
+              <source media="(max-width: 900px)" srcset="">
+              <img src="" alt="">
+            </picture>
+
+            <picture>
+              <source media="(max-width: 2600px) and (min-width: 900px)" srcset="images/top/menu_cart.png">
+              <source media="(max-width: 900px)" srcset="">
+              <img src="" alt="">
+            </picture>
+
+            <picture>
+              <source media="(max-width: 2600px) and (min-width: 900px)" srcset="images/top/menu_mypage.png">
+              <source media="(max-width: 900px)" srcset="">
+              <img src="" alt="">
+            </picture>
+
+            <picture>
+              <source media="(max-width: 2600px) and (min-width: 900px)" srcset="images/top/menu_guide.png">
+              <source media="(max-width: 900px)" srcset="">
+              <img src="" alt="">
+            </picture>
+
+            <picture>
+              <source media="(max-width: 2600px) and (min-width: 900px)" srcset="images/top/facebook.png">
+              <source media="(max-width: 900px)" srcset="images/top_sp/fb.png">
+              <img src="" alt="">
+            </picture>
+
+            <picture>
+              <source media="(max-width: 2600px) and (min-width: 900px)" srcset="images/top/insta.png">
+              <source media="(max-width: 900px)" srcset="images/top/insta.png">
+                <img src="" alt="">
+            </picture>
+              
+
+
+            <br clear="right">
+            
+          </div>
+
+
+          
+          </div>
+          <div class="asdf col-xs-3" media="(max-width: 2600px) and (max-width: 900px)">
+            <picture>
+                <source media="(max-width: 2600px) and (min-width: 900px)" srcset="">
+
+
+                <div id="menu">
+                <img src="images/top_sp/menu_icon.png">
+                </div>
+                  <ul class="sp_menu_toggle"><br>
+                    <li><a href="">LOGIN</a></li><br>
+                    <li><a href="">CART</a></li><br>
+                    <li><a href="">MYPAGE</a></li><br>
+                    <li><a href="">SHOPPING GUIDE</a></li>
+                  </ul>
+                <!-- <img src="images/top_sp/menu_icon.png" alt=""> -->
+            </picture>
+          </div>
         </div>
       </div>
     </header>
 
 
 
-    <main class="main row">
+
+
+
+
+    <div class="main container">
+    <div class="row">
       
-      <div class="left col-lg-8 col-md-8">
+        <div class="left col-xs-12 col-lg-8 col-md-8">
 
-        <div class="title_box"><img src="images/top/ca_banner.jpg"></div>
-        <div class="titleline">
-          <img src="images/top/title_newitems.png">
+            <div class="title_box">
+            <!-- <img src="images/top/ca_banner.jpg"> -->
+
+
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                      <img class="d-block img-fluid" src="images/top/ca_banner.jpg" alt="">
+                      <div class="carousel-caption">
+                      サンプル画像１
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img class="d-block img-fluid" src="images/top/ca_banner.jpg" alt="">
+                      <div class="carousel-caption">
+                        サンプル画像２
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img class="d-block img-fluid" src="images/top/ca_banner.jpg" alt="">
+                      <div class="carousel-caption">
+                        サンプル画像３
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="titleline">
+              <!-- <img src="images/top/title_newitems.png"> -->
+              <picture>
+                <source media="(max-width: 2600px) and (min-width: 900px)" srcset="images/top/title_newitems.png">
+                <source media="(max-width: 900px)" srcset="images/top_sp/title_new_item@2x.png">
+                <img src="" alt="">
+              </picture>
+            </div>
+
+            <div class="row">
+                  <div class="col-xs-6 col-md-4 col-lg-4">
+                    <div class="item">
+                        <img src="images/top/item_01.jpg">
+                      <h4>商品名が入ります商品名が入ります商品名が入ります<br><br>¥10,000 (tax in)</h4>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-6 col-md-4 col-lg-4">
+                    <div class="item">
+                        <img src="images/top/item_01.jpg">
+                      <h4>商品名が入ります商品名が入ります商品名が入ります<br><br>¥10,000 (tax in)</h4>
+                    </div>
+                  </div><div class="col-xs-6 col-md-4 col-lg-4">
+                    <div class="item">
+                        <img src="images/top/item_01.jpg">
+                      <h4>商品名が入ります商品名が入ります商品名が入ります<br><br>¥10,000 (tax in)</h4>
+                    </div>
+                  </div>
+                  <div class="col-xs-6 col-md-4 col-lg-4">
+                    <div class="item">
+                        <img src="images/top/item_01.jpg">
+                      <h4>商品名が入ります商品名が入ります商品名が入ります<br><br>¥10,000 (tax in)</h4>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-6 col-md-4 col-lg-4">
+                    <div class="item">
+                        <img src="images/top/item_01.jpg">
+                      <h4>商品名が入ります商品名が入ります商品名が入ります<br><br>¥10,000 (tax in)</h4>
+                    </div>
+                  </div>
+                  <div class="col-xs-6 col-md-4 col-lg-4">
+                    <div class="item">
+                        <img src="images/top/item_01.jpg">
+                      <h4>商品名が入ります商品名が入ります商品名が入ります<br><br>¥10,000 (tax in)</h4>
+                    </div>
+                  </div>
+            </div>
+
+
+
+            <div class="titleline">
+              <picture>
+                <source media="(max-width: 2600px) and (min-width: 900px)" srcset="images/top/title_popular.png">
+                <source media="(max-width: 900px)" srcset="images/top_sp/title_popular@2x.png">
+                <img src="" alt="">
+              </picture>
+            </div>
+
+
+
+            <div class="row">
+              <div class="col-xs-6 col-md-4 col-lg-4">
+                <div class="item">
+                  <div class="itemimg">
+                    <img src="images/top/item_01.jpg">
+                  </div>
+                  <h4>商品名が入ります商品名が入ります商品名が入ります<br><br>¥10,000 (tax in)</h4>
+                </div>
+              </div>
+              <div class="col-xs-6 col-md-4 col-lg-4">
+                <div class="item">
+                  <div class="itemimg">
+                    <img src="images/top/item_01.jpg">
+                  </div>
+                  <h4>商品名が入ります商品名が入ります商品名が入ります<br><br>¥10,000 (tax in)</h4>
+                </div>
+              </div>
+              <div class="col-xs-6 col-md-4 col-lg-4">
+                <div class="item">
+                  <div class="itemimg">
+                    <img src="images/top/item_01.jpg">
+                  </div>
+                  <h4>商品名が入ります商品名が入ります商品名が入ります<br><br>¥10,000 (tax in)</h4>
+                </div>
+              </div>
+              <div class="col-xs-6 col-md-4 col-lg-4">
+                <div class="item">
+                  <div class="itemimg">
+                    <img src="images/top/item_01.jpg">
+                  </div>
+                  <h4>商品名が入ります商品名が入ります商品名が入ります<br><br>¥10,000 (tax in)</h4>
+                </div>
+              </div>
+              <div class="col-xs-6 col-md-4 col-lg-4">
+                <div class="item">
+                  <div class="itemimg">
+                    <img src="images/top/item_01.jpg">
+                  </div>
+                  <h4>商品名が入ります商品名が入ります商品名が入ります<br><br>¥10,000 (tax in)</h4>
+                </div>
+              </div>
+              <div class="col-xs-6 col-md-4 col-lg-4">
+                <div class="item">
+                  <div class="itemimg">
+                    <img src="images/top/item_01.jpg">
+                  </div>
+                  <h4>商品名が入ります商品名が入ります商品名が入ります<br><br>¥10,000 (tax in)</h4>
+                </div>
+              </div>
+            </div>
+
+
+
+            <!-- フッター前コンテンツ -->
+
+              <div class="titleline2">
+                <picture>
+                  <source media="(max-width: 2600px) and (min-width: 900px)" srcset="images/top/title_guide.png">
+                  <source media="(max-width: 900px)" srcset="images/top_sp/title_guide@2x.png">
+                  <img src="" alt="">
+                </picture>
+              </div>
+
+
+
+                <div class="col-xs-12 col-md-6 col-lg-6 shopping_guide">
+                    <div class="">
+                      <h2>お届けについて</h2>
+                      <img src="images/top/otodoke_banner.png">
+                      <h3>■◯◯運輸</h3><p>送料 ¥０００円</p>
+                      <h2>ゆうパッケット</h2><p>ポスト投函となります。日時指定不可</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-6 shopping_guide2">
+                    
+                      <h2>決済について</h2>
+                      <h3>■カード決済</h3>
+                      <img src="images/top/cards.png"　class="card_img">
+                      <h3>代金引換</h3><p>代引き手数料が別途でかかります</p>
+                      <h3>銀行振込</h3><p>お振込手数料お客様負担。<br>ご入金後の発送となります。</p>
+                </div> 
+
+
+
+          </div>
+      
+
+
+
+          <!-- ここから右のコンテンツ -->
+
+
+        <div class="right col-xs-12 col-lg-4 col-md-4 center-block">
+
+              <div class="search">
+                <img src="images/top/itemserch.png">
+                <form method="get" action="#" class="search">
+                  <div>
+                    <input type="text" name="search" class="textBox" placeholder="search..."><input type="submit" value="" class="btn">
+                  </div>
+                </form>
+
+              </div>
+              <div class="right_bar">
+                <div class="right_bar_moji">
+                  <img src="images/top/pagelink.png">
+                  <img src="images/top/next_icon.png" class="bar" >
+                </div>
+              </div>
+
+              <div class="categories">
+                <div class="right_bar">
+                  <div class="right_bar_moji">
+                    <img src="images/top/categories.png">
+                    <img src="images/top/down_icon.png" class="bar2">
+                  </div>
+                </div>
+              </div>
+              <div class="categories">
+                <div class="categorie_bar">
+                  <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="categories_bar_icon">
+                </div>
+              </div>
+              <div class="categories">
+                <div class="categorie_bar">
+                  <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="categories_bar_icon">
+                </div>
+              </div>
+              <div class="categories">
+                <div class="categorie_bar">
+                  <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="categories_bar_icon">
+                </div>
+              </div>
+              <div class="categories">
+                <div class="categorie_bar">
+                  <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="categories_bar_icon">
+                </div>
+              </div>
+              <div class="categories">
+                <div class="categorie_bar">
+                  <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="categories_bar_icon">
+                </div>
+              </div>
+              <div class="categories">
+                <div class="categorie_bar">
+                  <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="categories_bar_icon">
+                </div>
+              </div>
+
+
+              <div class="about">
+                <div class="right_bar_moji right_bar"><img src="images/top/about.png"></div>
+              </div>
+              <div class="row">
+                <div class="col-lg-7 col-md-7 col-xs-6 aboutimg"><img src="images/top/about_img.jpg"></div>
+                <div class="col-lg-7 col-md-7 col-xs-6 omisenosetumei"><h4>お店の説明お店の説明お店の説明が入りますお店の説明お店の説明お店の説明</h4>
+                <p class="center"><img src="images/top/more_btn.png" align="center"></p>
+                </div>
+              </div>
+              <div class="about">
+                <div class="right_bar_moji right_bar"><img src="images/top/about.png"></div>
+              </div>
+              <div class="row">
+                <div class="col-lg-7 col-md-7 col-xs-6 aboutimg"><img src="images/top/about_img.jpg"></div>
+                <div class="col-lg-7 col-md-7 col-xs-6 omisenosetumei"><h4>お店の説明お店の説明お店の説明が入りますお店の説明お店の説明お店の説明</h4>
+                <p class="center"><img src="images/top/more_btn.png" align="center"></p>
+                </div>
+                </div>
         </div>
 
-        <div class="row">
-          <div class="col-xs-4">
-            <div class="item">
-              <img src="images/top/item_01.jpg">
-              <h4>商品名が入ります商品名が入ります商品名が入ります<br><br>¥10,000 (tax in)</h4>
-            </div>
-          </div>
-          <div class="col-xs-4">
-            <div class="item">
-              <img src="images/top/item_02.jpg">
-              <h4>商品名が入ります商品名が入ります商品名が入ります<br><br>¥10,000 (tax in)</h4>
-            </div>
-          </div>
-          <div class="col-xs-4">
-            <div class="item">
-              <img src="images/top/item_03.jpg">
-              <h4>商品名が入ります商品名が入ります商品名が入ります<br><br>¥10,000 (tax in)</h4>
-            </div>
-          </div>
-          <div class="col-xs-4">
-            <div class="item">
-              <img src="images/top/item_04.jpg">
-              <h4>商品名が入ります商品名が入ります商品名が入ります<br><br>¥10,000 (tax in)</h4>
-            </div>
-          </div>
-          <div class="col-xs-4">
-            <div class="item">
-              <img src="images/top/item_05.jpg">
-              <h4>商品名が入ります商品名が入ります商品名が入ります<br><br>¥10,000 (tax in)</h4>
-            </div>
-          </div>
-          <div class="col-xs-4">
-            <div class="item">
-              <img src="images/top/item_06.jpg">
-              <h4>商品名が入ります商品名が入ります商品名が入ります<br><br>¥10,000 (tax in)</h4>
-            </div>
-          </div>
-        </div>
-
-        <div class="titleline">
-          <img src="images/top/title_popular.png">
-        </div>
-
-
-        <div class="row">
-          <div class="col-xs-4">
-            <div class="item">
-              <img src="images/top/item_07.jpg">
-              <h4>商品名が入ります商品名が入ります商品名が入ります<br><br>¥10,000 (tax in)</h4>
-            </div>
-          </div>
-          <div class="col-xs-4">
-            <div class="item">
-              <img src="images/top/item_08.jpg">
-              <h4>商品名が入ります商品名が入ります商品名が入ります<br><br>¥10,000 (tax in)</h4>
-            </div>
-          </div>
-          <div class="col-xs-4">
-            <div class="item">
-              <img src="images/top/item_09.jpg">
-              <h4>商品名が入ります商品名が入ります商品名が入ります<br><br>¥10,000 (tax in)</h4>
-            </div>
-          </div>
-          <div class="col-xs-4">
-            <div class="item">
-              <img src="images/top/item_10.jpg">
-              <h4>商品名が入ります商品名が入ります商品名が入ります<br><br>¥10,000 (tax in)</h4>
-            </div>
-          </div>
-          <div class="col-xs-4">
-            <div class="item">
-              <img src="images/top/item_11.jpg">
-              <h4>商品名が入ります商品名が入ります商品名が入ります<br><br>¥10,000 (tax in)</h4>
-            </div>
-          </div>
-          <div class="col-xs-4">
-            <div class="item">
-              <img src="images/top/item_12.jpg">
-              <h4>商品名が入ります商品名が入ります商品名が入ります<br><br>¥10,000 (tax in)</h4>
-            </div>
-          </div>
-
-          <div class="titleline2">
-            <img src="images/top/title_guide.png">
-          </div>
-
-          <div class="raw">
-            <div class="shopping_guide col-xs-6">
-              <h2>お届けについて</h2>
-              <img src="images/top/otodoke_banner.png">
-              <h3>■◯◯運輸</h3><p>送料 ¥０００円</p>
-              <h2>ゆうパッケット</h2><p>ポスト投函となります。日時指定不可</p>
-            </div>
-            <div class="shopping_guide col-xs-6">
-              <h2>決済について</h2>
-              <h3>■カード決済</h3>
-              <img src="images/top/cards.png">
-              <h3>代金引換</h3><p>代引き手数料が別途でかかります</p>
-              <h3>銀行振込</h3><p>お振込手数料お客様負担。<br>ご入金後の発送となります。</p>
-            </div>
-          </div>
-          
-        </div>
-      </div>
-
-
-<!-- ここから右のコンテンツ -->
-      <div class="right col-lg-4 col-md-4 center-block">
-
-        <div class="search">
-          <img src="images/top/itemserch.png">
-          <form method="get" action="#" class="search">
-            <div>
-              <input type="text" name="search" class="textBox" placeholder="search..."><input type="submit" value="" class="btn">
-            </div>
-          </form>
-
-        </div>
-        <div class="right_bar">
-          <div class="right_bar_moji">
-            <img src="images/top/pagelink.png">
-            <img src="images/top/next_icon.png" class="bar" >
-          </div>
-        </div>
-
-        <div class="categories">
-          <div class="right_bar">
-            <div class="right_bar_moji">
-              <img src="images/top/categories.png">
-              <img src="images/top/down_icon.png" class="bar2">
-            </div>
-          </div>
-        </div>
-        <div class="categories">
-          <div class="categorie_bar">
-            <h4>カテゴリー名<img src="images/top/next_icon_gray.png" class="categories_bar_icon"></h4>
-          </div>
-        </div>
-        <div class="categories">
-          <div class="categorie_bar">
-            <h4>カテゴリー名<img src="images/top/next_icon_gray.png" class="categories_bar_icon"></h4>
-          </div>
-        </div>
-        <div class="categories">
-          <div class="categorie_bar">
-            <h4>カテゴリー名<img src="images/top/next_icon_gray.png" class="categories_bar_icon"></h4>
-          </div>
-        </div>
-        <div class="categories">
-          <div class="categorie_bar">
-            <h4>カテゴリー名<img src="images/top/next_icon_gray.png" class="categories_bar_icon"></h4>
-          </div>
-        </div>
-        <div class="categories">
-          <div class="categorie_bar">
-            <h4>カテゴリー名<img src="images/top/next_icon_gray.png" class="categories_bar_icon"></h4>
-          </div>
-        </div>
-        <div class="categories">
-          <div class="categorie_bar">
-            <h4>カテゴリー名<img src="images/top/next_icon_gray.png" class="categories_bar_icon"></h4>
-          </div>
-        </div>
+    
+    </div>
+      
 
 
 
-
-        <div class="about">
-          <div class="right_bar">
-            <div class="right_bar_moji"><img src="images/top/about.png"></div>
-          </div>
-          <img src="images/top/about_img.jpg" class="about_img"> 
-          <h4>お店の説明お店の説明お店の説明が入りますお店の説明お店の説明お店の説明</h4>
-          <p class="center"><img src="images/top/more_btn.png" align="center">
-          </p>
-        </div>
-
-        <div class="about">
-          <div class="right_bar">
-            <div class="right_bar_moji"><img src="images/top/shop_info.png"></div>
-          </div>
-          <img src="images/top/shopinfo_img.jpg" class="about_img"> 
-          <h4>お店の説明お店の説明お店の説明が入りますお店の説明お店の説明お店の説明</h4>
-          <p class="center"><img src="images/top/more_btn.png" align="center">
-          </p>
-        </div>
-      </div>
-    </main>
 
 
 <!-- フッター -->
     
     <footer>
-      <div class="pagetop">
-        <img src="images/top/pagetop.png">
-      </div>
-      <div class="line"></div>
-      <div class="credits">
-        <p>特定商取引に基づく表記　・　プライバシーポリシー　・　マイページ</p>
-      </div>
-      <div class="credits2">
-        <p>copyright (C) APPLE BERRY all rights reserved.</p>
-      </div>
+        <div class="pagetop">
+          <img src="images/top/pagetop.png">
+        </div>
+        <div class="line"></div>
+        <div class="credits">
+          <p>特定商取引に基づく表記　・　プライバシーポリシー　・　マイページ</p>
+        </div>
+        <div class="credits2">
+          <p>copyright (C) APPLE BERRY all rights reserved.</p>
+        </div>
         
  	  </footer>
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+      <script src="http://code.jquery.com/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script type="text/javascript" src="js/style.js"></script>
+    <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+
+
+
+
+   <!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> -->
+
+
+
+
+
   </body>
 
 
