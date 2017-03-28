@@ -1,6 +1,15 @@
 
 
+
+
+
 @media (max-width: 2600px) and (min-width: 900px) {
+
+.contents_haba .col-lg-4 ,.col-md-4 ,.col-lg-4{
+	padding: 0px;
+}
+
+
 
 .body_layout {
 	padding: 0% 8%;
@@ -10,7 +19,7 @@
 /*ヘッダー*/
 
 .headmargin {
-	margin: 40px 80px 40px 80px;
+	margin: 40px 0px;
 }
 
 
@@ -91,8 +100,8 @@
 
 .shopping_guide {
 	background-color: #ffffff;
-	padding: 1px 15px 53px 15px;
-	margin-top:25px;
+	/*padding: 1px 15px 53px 15px;
+	margin-top:25px;*/
 }
 
 
@@ -115,8 +124,7 @@
 
 .shopping_guide2 {
 	background-color: #ffffff;
-	padding:1px 15px 0px 15px;
-	margin-top:25px;
+	height: 320px;
 }
 
 
@@ -142,7 +150,9 @@
 	height: auto; 
 }
 
-
+li .col-lg-6 .col-md-6 .col-xs-1-5  {
+	padding: 0px;
+}
 
 .shopping_guide img {
 　	width: 100%;
@@ -150,6 +160,18 @@
 
 .shopping_guide img {
 　	width: 100%;
+}
+
+
+.products_photo ul li {
+	width: 40%;
+	min-height:100px;
+
+}
+.products_photo ul li img{
+	width: 100%;
+	min-height:100px;
+
 }
 
 
@@ -170,6 +192,7 @@ p {
 .item {
 	padding: 16px;
 	background-color: white;
+	border: solid 1.2px #f9f8f6;
 }
 
 .item img {
@@ -192,22 +215,27 @@ p {
 	width: 219px;
 	height: 92px;
 	background-color: #ffffff;
+	padding: 10px 10px 20px 10px;
 }
 
-form.search input.btn {
-	width: 16px; /* ボタンの幅 */
-	height: 16px; /* ボタンの高さ */
+
+/*form.search2 input.btn {
+	width: 16px; 
+	height: 16px;
 	padding: 0;
-	background: url(images/top/search_icon.png); /* ボタンの背景 */
-	border: 1px; /* ボタンの境界線 */
+	background: url(images/top/search_icon.png);
+	border: 1px;
 	font-weight: bold;
 	color: #000000;
-	letter-spacing: 0.3em; /* 文字間のスペース */
-}
+	letter-spacing: 0.3em;
+	position: absolute;
+	left: 180px;
+	top: 32px;
+}*/
 
-form.search input.textBox {
-width: 178px; /* テキストボックスの幅 */
-margin: 0 4px 0 5px; /* テキストボックスのマージン（上右下左） */
+form.search2 input.textBox {
+width: 100%; /* テキストボックスの幅 */
+margin: 0 ; /* テキストボックスのマージン（上右下左） */
 padding: 0;
 background-color: #eeeeee;
 border: none; /* テキストボックスの境界線（なし） */
@@ -216,17 +244,31 @@ color: #000000;
 
 
 
+
+
+
+
 .right_bar {
-	width: 219px;
+	width: 100%;
 	height: 45px;
 	background-color: #887f69;
 	margin: 10px 0px 10px 0px;
 }
 
+.right_bar2 {
+	width: 219px;
+	min-height: 45px;
+	background-color: white;
+	margin: 10px 0px 10px 0px;
+}
+
+
 .right_bar_moji {
 	padding: 11px;
 	height: 45px;
 }
+
+
 
 .bar {
 	float: right;
@@ -239,7 +281,7 @@ color: #000000;
 }
 
 .categories {
-	width: 219px;
+	width: 100%;
 }
 
 .categorie_bar {
@@ -248,13 +290,6 @@ color: #000000;
 	background-color: #ffffff;
 }
 
-.categorie_bar span {
-	font-family: HiraKakuPro;
-	color: #000000;
-	font-size: 12px;
-	line-height: 18px;
-	padding: 10px;
-}
 
 .categories_bar_icon {
 	margin-left: 105px;
@@ -497,6 +532,10 @@ margin:20px 0 20px 0;
 	padding-left: 62px;
 }
 
+.add_to_cart img {
+width: 100%;
+height: auto;
+}
 
 .price {
 	margin:20px 0 20px 0;
@@ -531,7 +570,33 @@ margin:20px 0 20px 0;
 	visibility: hidden;
 
 }
+
+
+.shopping_guide2 {
+	border-left:#f9f8f6 solid 5px;
 }
+
+
+
+
+ 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -564,7 +629,7 @@ margin:20px 0 20px 0;
 /*@media screen and (max-width:790px) { */
     /*　for iPhone Landscape　(iPhone 横)　*/
 .body_layout {
-	padding: 0% 8%;
+	padding: 0% 0%;
 	background-color: #f9f8f6;
 }
 
@@ -574,9 +639,15 @@ margin:20px 0 20px 0;
 	margin: 40px 80px 40px 80px;
 }
 
+.headmargin img {
+	text-align: center;
 
-.header_contents img {
-	margin: 0px 5px 0px 5px;
+}
+
+
+
+.himg {
+	text-align: center;
 }
 
 
@@ -591,6 +662,7 @@ margin:20px 0 20px 0;
 
 .header_contents {
 	margin-bottom: 10px;
+	text-align: center;
 }
 
 
@@ -598,7 +670,6 @@ margin:20px 0 20px 0;
 
 /*お試し*/
 .header_contents2 {
-	padding-left: 5px;
 	padding-top: 20px;
 }
 
@@ -606,13 +677,13 @@ margin:20px 0 20px 0;
 
 
 header .col-xs-9 { 
-	padding-left: 0px;
+	/*padding-right: 0px;*/
 
 }
 
 .asdf {
-	padding-top: 21px;
-	padding-left: 10px;
+	/*padding-top: 21px;
+	padding-left: 10px;*/
 }
 
 
@@ -754,13 +825,11 @@ p {
 
 
 
-
+/*
 .item {
 	padding: 16px;
 	border-bottom: medium solid #f9f8f6;
-	
-
-}
+}*/
 
 .item img {
 	width: 100%;
@@ -771,13 +840,15 @@ p {
 
 /*右のコンテンツ*/
 
+
 .search {
-	width: 100%;
+	width: 219px;
 	height: 92px;
 	background-color: #ffffff;
+	padding: 10px 10px 20px 10px;
 }
 
-form.search input.btn {
+form.search2 input.btn {
 	width: 16px; /* ボタンの幅 */
 	height: 16px; /* ボタンの高さ */
 	padding: 0;
@@ -786,17 +857,20 @@ form.search input.btn {
 	font-weight: bold;
 	color: #000000;
 	letter-spacing: 0.3em; /* 文字間のスペース */
+	position: absolute;
+	left: 180px;
+	top: 32px;
 }
 
-form.search input.textBox {
-width: 90%; /* テキストボックスの幅 */
-height: 40px;
-margin: 0 4px 0 5px; /* テキストボックスのマージン（上右下左） */
+form.search2 input.textBox {
+width: 178px; /* テキストボックスの幅 */
+margin: 0 ; /* テキストボックスのマージン（上右下左） */
 padding: 0;
 background-color: #eeeeee;
 border: none; /* テキストボックスの境界線（なし） */
 color: #000000;
 }
+
 
 
 
@@ -1076,7 +1150,7 @@ margin:20px 0 20px 0;
 }
 
 .sumaho {
-	margin-left: 20px; 
+	margin-left: 15px; 
 }
 
 
@@ -1138,11 +1212,38 @@ margin:20px 0 20px 0;
 
 #menu {
   visibility: visible;
+  margin: 0px;
+
+}
+
+.search {
+    width: auto;
+    height: 92px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+.spmenubar{
+	margin-left: 8px;
 }
 
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1251,10 +1352,10 @@ col-xs-1-5, .col-sm-1-5, .col-md-1-5, .col-lg-1-5,
 	float: right;
 }
 
-
-
-
-
+.footer2box {
+	height: auto;
+	background-color: white;
+}
 
 
 
@@ -1275,11 +1376,73 @@ li img {
 #menu {
   cursor: pointer;
   width:10px;
+  float: right;
+  position: absolute;
+  right: 30px;
+  top: 20px;
 }
 .sp_menu_toggle {
   display: none;
+
+  margin-bottom: 0px;
+  clear: both;
 }
 
+
+
+
+
+/*追加*/
+
+/*画面が大きい時カルーセル*/
+.carousel-indicators {
+	width: 100%;
+	bottom: -13px;
+	left: 33%;
+	text-align: left;
+}
+
+
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 30px;
+    height: 2px;
+    margin: 3px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 0%;
+    background-color: #9CA09F;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);
+}
+.carousel-indicators .active {
+    width: 30px;
+    height: 2px;
+    margin: 3px;
+    background-color: #DB0000;
+}
+
+
+html {
+	background-color:#f9f8f6;
+}
+
+
+
+.item2 {
+	padding: 0px 15px;
+}
+
+.right div,input {
+	width: 100%;
+	height: auto;
+}
+
+
+input .textBox {
+	background-color: #eeeeee;
+}
 
 
 

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ja">
   <head>
@@ -6,15 +7,21 @@
     <title></title>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script> 
+    <script src="dist/js/bootstrap.min.js"></script> 
     <script src="https://use.fontawesome.com/d1518f9856.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
   </head>
+
 
 
 
@@ -25,73 +32,17 @@
 
 
 
-  <!-- 前回のヘッダー -->
-<!--     <header class="container-fluid medium">
+
+<header class="container-fluid medium large">
       <div class="row header_contents">
         <div class="headmargin">
-          <div class="col-md-7 col-lg-7">
+          <div class="col-md-6 col-lg-6 col-xl-6 himg">
             <img src="images/top/logo.png">
           </div>
-          <div class="pull-right header_contents col-xs-12 col-md-5 col-lg-5">
+          <div class="center-block header_contents col-xs-9 col-md-6 col-lg-6 col-xl-6 migi">
           <div class="header_contents2">
             <picture>
               <source media="(max-width: 2600px) and (min-width: 900px)" srcset="images/top/menu_login.png">
-              <source media="(max-width: 900px)" srcset="img/640.gif">
-              <img src="" alt="">
-            </picture>
-
-            <picture>
-              <source media="(max-width: 2600px) and (min-width: 900px)" srcset="images/top/menu_cart.png">
-              <source media="(max-width: 900px)" srcset="img/640.gif">
-              <img src="" alt="">
-            </picture>
-
-            <picture>
-              <source media="(max-width: 2600px) and (min-width: 900px)" srcset="images/top/menu_mypage.png">
-              <source media="(max-width: 900px)" srcset="img/640.gif">
-              <img src="" alt="">
-            </picture>
-
-            <picture>
-              <source media="(max-width: 2600px) and (min-width: 900px)" srcset="images/top/menu_guide.png">
-              <source media="(max-width: 900px)" srcset="images/top_sp/fb.png">
-              <img src="img/640.gif" alt="">
-            </picture>
-
-            <picture>
-              <source media="(max-width: 2600px) and (min-width: 900px)" srcset="images/top/facebook.png">
-              <source media="(max-width: 900px)" srcset="images/top_sp/insta.png">
-              <img src="img/640.gif" alt="">
-            </picture>
-
-            <picture>
-              <source media="(max-width: 2600px) and (min-width: 900px)" srcset="images/top/insta.png">
-              <source media="(max-width: 900px)" srcset="images/top_sp/menu_icon.png">
-              <img src="img/640.gif" alt="">
-            </picture>
-          </div>
-
-          </div>
-        </div>
-      </div>
-    </header>
- -->
-
-
-<!-- 本番用ヘッダー -->
-
-
-
-<header class="container-fluid medium">
-      <div class="row header_contents">
-        <div class="headmargin">
-          <div class="col-md-6 col-lg-6">
-            <img src="images/top/logo.png">
-          </div>
-          <div class="pull-right header_contents col-xs-9 col-md-6 col-lg-6 migi">
-          <div class="header_contents2 header_contents_float">
-            <picture>
-              <source media="(max-width: 2600px) and (min-width: 900px)" srcset="images/top/menu_login.png">
               <source media="(max-width: 900px)" srcset="">
               <img src="" alt="">
             </picture>
@@ -122,20 +73,11 @@
 
             <picture>
               <source media="(max-width: 2600px) and (min-width: 900px)" srcset="images/top/insta.png">
-              <source media="(max-width: 900px)" srcset="images/top/insta.png">
+              <source media="(max-width: 900px)" srcset="images/top_sp/insta.png" class="spmenubar">
                 <img src="" alt="">
             </picture>
-              
-
-
-            <br clear="right">
             
-          </div>
-
-
-          
-          </div>
-          <div class="asdf col-xs-3" media="(max-width: 2600px) and (max-width: 900px)">
+            <!-- <div class="asdf " media="(max-width: 2600px) and (max-width: 900px)"> -->
             <picture>
                 <source media="(max-width: 2600px) and (min-width: 900px)" srcset="">
 
@@ -149,38 +91,28 @@
                     <li><a href="">MYPAGE</a></li><br>
                     <li><a href="">SHOPPING GUIDE</a></li>
                   </ul>
-                <!-- <img src="images/top_sp/menu_icon.png" alt=""> -->
+                
             </picture>
+          <!-- </div> -->
+
+
+            <!-- <br clear="right"> -->
+            
           </div>
+
+
+          
+          </div>
+          <!-- ここにメニューバーがあった。 -->
         </div>
       </div>
     </header>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <div class="main container-fluid medium">
 
     <div class="row">
       
-      <div class="left col-xs-12 col-lg-9 col-md-9">
+      <div class="left col-xs-12 col-lg-10 col-md-10">
         <div class="list_topbar">
             <p><i class="fa fa-home" aria-hidden="true"></i>　HOME　/　カテゴリー名　/　商品名</p>
         </div>
@@ -291,6 +223,9 @@
             </div>
           </div>
 
+
+
+<!-- フッター前コンテンツ -->
            <div class="titleline">
                 <picture>
                   <source media="(max-width: 2600px) and (min-width: 900px)" srcset="images/top/title_guide.png">
@@ -301,7 +236,8 @@
 
 
 
-              <div class="sumaho">
+              <div class="sumaho container-fluid">
+              <div class="footer2box row">
                 <div class="col-xs-12 col-md-6 col-lg-6 shopping_guide">
                     <div class="">
                       <h2>お届けについて</h2>
@@ -319,6 +255,7 @@
                       <h3>銀行振込</h3><p>お振込手数料お客様負担。<br>ご入金後の発送となります。</p>
                 </div>
               </div>
+              </div>
 
 
 
@@ -327,13 +264,15 @@
 
 
 <!-- ここから右のコンテンツ -->
-      <div class="right col-xs-12 col-lg-2 col-md-2 center-block">
+      <div class="right col-xs-12 col-lg-2 col-md-2 col-xl-2">
 
               <div class="search">
-                <img src="images/top/itemserch.png">
-                <form method="get" action="#" class="search">
+                <div class="itemserch_text">
+                  <img src="images/top/itemserch.png">
+                </div>
+                <form method="get" action="#" class="search2">
                   <div>
-                    <input type="text" name="search" class="textBox" placeholder="search..."><input type="submit" value="" class="btn">
+                    <input type="text" name="search" class="textBox" placeholder="search..." style="background-image: url(images/top/search_icon.png);background-repeat: no-repeat;background-position: right;">
                   </div>
                 </form>
 
@@ -353,36 +292,39 @@
                   </div>
                 </div>
               </div>
-              <div class="categories">
-                <div class="categorie_bar">
-                  <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="categories_bar_icon">
-                </div>
-              </div>
-              <div class="categories">
-                <div class="categorie_bar">
-                  <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="categories_bar_icon">
-                </div>
-              </div>
-              <div class="categories">
-                <div class="categorie_bar">
-                  <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="categories_bar_icon">
-                </div>
-              </div>
-              <div class="categories">
-                <div class="categorie_bar">
-                  <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="categories_bar_icon">
-                </div>
-              </div>
-              <div class="categories">
-                <div class="categorie_bar">
-                  <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="categories_bar_icon">
-                </div>
-              </div>
-              <div class="categories">
-                <div class="categorie_bar">
-                  <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="categories_bar_icon">
-                </div>
-              </div>
+              
+
+              
+          <div class="categories right_bar2">
+            <div class="right_bar_moji">
+              <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="bar2">
+            </div>
+          </div>
+          <div class="categories right_bar2">
+            <div class="right_bar_moji">
+              <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="bar2">
+            </div>
+          </div>
+          <div class="categories right_bar2">
+            <div class="right_bar_moji">
+              <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="bar2">
+            </div>
+          </div>
+          <div class="categories right_bar2">
+            <div class="right_bar_moji">
+              <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="bar2">
+            </div>
+          </div>
+          <div class="categories right_bar2">
+            <div class="right_bar_moji">
+              <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="bar2">
+            </div>
+          </div>
+          <div class="categories right_bar2">
+            <div class="right_bar_moji">
+              <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="bar2">
+            </div>
+          </div>
 
 
               <div class="about">
@@ -408,7 +350,7 @@
         </div>
     </div>
 </div>
-
+      
 
 <!-- フッター -->
     

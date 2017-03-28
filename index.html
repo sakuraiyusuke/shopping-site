@@ -7,17 +7,18 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script> 
+    <script src="dist/js/bootstrap.min.js"></script> 
     <script src="https://use.fontawesome.com/d1518f9856.js"></script>
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
   </head>
 
 
@@ -26,14 +27,14 @@
 <div class="body_layout">
 
   <body>
-    <header class="container-fluid medium">
+    <header class="container-fluid medium large">
       <div class="row header_contents">
         <div class="headmargin">
-          <div class="col-md-6 col-lg-6">
+          <div class="col-md-6 col-lg-6 col-xl-6 himg">
             <img src="images/top/logo.png">
           </div>
-          <div class="pull-right header_contents col-xs-9 col-md-6 col-lg-6 migi">
-          <div class="header_contents2 header_contents_float">
+          <div class="center-block header_contents col-xs-9 col-md-6 col-lg-6 col-xl-6 migi">
+          <div class="header_contents2">
             <picture>
               <source media="(max-width: 2600px) and (min-width: 900px)" srcset="images/top/menu_login.png">
               <source media="(max-width: 900px)" srcset="">
@@ -66,20 +67,11 @@
 
             <picture>
               <source media="(max-width: 2600px) and (min-width: 900px)" srcset="images/top/insta.png">
-              <source media="(max-width: 900px)" srcset="images/top/insta.png">
+              <source media="(max-width: 900px)" srcset="images/top_sp/insta.png" class="spmenubar">
                 <img src="" alt="">
             </picture>
-              
-
-
-            <br clear="right">
             
-          </div>
-
-
-          
-          </div>
-          <div class="asdf col-xs-3" media="(max-width: 2600px) and (max-width: 900px)">
+            <!-- <div class="asdf " media="(max-width: 2600px) and (max-width: 900px)"> -->
             <picture>
                 <source media="(max-width: 2600px) and (min-width: 900px)" srcset="">
 
@@ -93,9 +85,19 @@
                     <li><a href="">MYPAGE</a></li><br>
                     <li><a href="">SHOPPING GUIDE</a></li>
                   </ul>
-                <!-- <img src="images/top_sp/menu_icon.png" alt=""> -->
+                
             </picture>
+          <!-- </div> -->
+
+
+            <!-- <br clear="right"> -->
+            
           </div>
+
+
+          
+          </div>
+          <!-- ここにメニューバーがあった。 -->
         </div>
       </div>
     </header>
@@ -106,10 +108,10 @@
 
 
 
-    <div class="main container-fluid medium">
+    <div class="main container-fluid medium large">
     <div class="row">
       
-        <div class="left col-xs-12 col-lg-9 col-md-9">
+        <div class="left col-xs-12 col-lg-10 col-md-10 col-xl-10">
 
             <div class="title_box">
             <!-- <img src="images/top/ca_banner.jpg"> -->
@@ -121,27 +123,22 @@
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                   </ol>
 
                   <!-- Wrapper for slides -->
                   <div class="carousel-inner" role="listbox">
                     <div class="item active">
                       <img class="d-block img-fluid" src="images/top/ca_banner.jpg" alt="">
-                      <div class="carousel-caption">
-                      サンプル画像１
-                      </div>
                     </div>
                     <div class="item">
                       <img class="d-block img-fluid" src="images/top/ca_banner.jpg" alt="">
-                      <div class="carousel-caption">
-                        サンプル画像２
-                      </div>
                     </div>
                     <div class="item">
                       <img class="d-block img-fluid" src="images/top/ca_banner.jpg" alt="">
-                      <div class="carousel-caption">
-                        サンプル画像３
-                      </div>
+                    </div>
+                    <div class="item">
+                      <img class="d-block img-fluid" src="images/top/ca_banner.jpg" alt="">
                     </div>
                   </div>
                 </div>
@@ -155,7 +152,7 @@
               </picture>
             </div>
 
-            <div class="row">
+            <div class="row contents_haba">
                   <div class="col-xs-6 col-md-4 col-lg-4">
                     <div class="item">
                         <img src="images/top/item_01.jpg">
@@ -262,7 +259,7 @@
 
             <!-- フッター前コンテンツ -->
 
-              <div class="titleline2">
+              <div class="titleline">
                 <picture>
                   <source media="(max-width: 2600px) and (min-width: 900px)" srcset="images/top/title_guide.png">
                   <source media="(max-width: 900px)" srcset="images/top_sp/title_guide@2x.png">
@@ -270,28 +267,27 @@
                 </picture>
               </div>
 
-
-
-                <div class="col-xs-12 col-md-6 col-lg-6 shopping_guide">
-                    <div class="">
-                      <h2>お届けについて</h2>
-                      <img src="images/top/otodoke_banner.png">
-                      <h3>■◯◯運輸</h3><p>送料 ¥０００円</p>
-                      <h2>ゆうパッケット</h2><p>ポスト投函となります。日時指定不可</p>
-                    </div>
+              <div class="container-fluid">
+                <div class="footer2box row">
+                  <div class="col-xs-12 col-md-6 col-lg-6 shopping_guide2">
+                      <div class="">
+                        <h2>お届けについて</h2>
+                        <img src="images/top/otodoke_banner.png">
+                        <h3>■◯◯運輸</h3><p>送料 ¥０００円</p>
+                        <h2>ゆうパッケット</h2><p>ポスト投函となります。日時指定不可</p>
+                      </div>
+                  </div>
+                  <div class="col-xs-12 col-md-6 col-lg-6 shopping_guide2">
+                      
+                        <h2>決済について</h2>
+                        <h3>■カード決済</h3>
+                        <img src="images/top/cards.png"　class="card_img">
+                        <h3>代金引換</h3><p>代引き手数料が別途でかかります</p>
+                        <h3>銀行振込</h3><p>お振込手数料お客様負担。<br>ご入金後の発送となります。</p>
+                  </div>
                 </div>
-                <div class="col-xs-12 col-md-6 col-lg-6 shopping_guide2">
-                    
-                      <h2>決済について</h2>
-                      <h3>■カード決済</h3>
-                      <img src="images/top/cards.png"　class="card_img">
-                      <h3>代金引換</h3><p>代引き手数料が別途でかかります</p>
-                      <h3>銀行振込</h3><p>お振込手数料お客様負担。<br>ご入金後の発送となります。</p>
-                </div> 
-
-
-
-          </div>
+              </div>
+            </div>
       
 
 
@@ -299,13 +295,15 @@
           <!-- ここから右のコンテンツ -->
 
 
-        <div class="right col-xs-12 col-lg-2 col-md-2 center-block">
+        <div class="right col-xs-12 col-lg-2 col-md-2 col-xl-2">
 
               <div class="search">
-                <img src="images/top/itemserch.png">
-                <form method="get" action="#" class="search">
+                <div class="itemserch_text">
+                  <img src="images/top/itemserch.png">
+                </div>
+                <form method="get" action="#" class="search2">
                   <div>
-                    <input type="text" name="search" class="textBox" placeholder="search..."><input type="submit" value="" class="btn">
+                    <input type="text" name="search" class="textBox" placeholder="search..." style="background-image: url(images/top/search_icon.png);background-repeat: no-repeat;background-position: right;"><!-- <input type="submit" value="" class="btn"> -->
                   </div>
                 </form>
 
@@ -325,36 +323,37 @@
                   </div>
                 </div>
               </div>
-              <div class="categories">
-                <div class="categorie_bar">
-                  <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="categories_bar_icon">
-                </div>
-              </div>
-              <div class="categories">
-                <div class="categorie_bar">
-                  <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="categories_bar_icon">
-                </div>
-              </div>
-              <div class="categories">
-                <div class="categorie_bar">
-                  <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="categories_bar_icon">
-                </div>
-              </div>
-              <div class="categories">
-                <div class="categorie_bar">
-                  <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="categories_bar_icon">
-                </div>
-              </div>
-              <div class="categories">
-                <div class="categorie_bar">
-                  <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="categories_bar_icon">
-                </div>
-              </div>
-              <div class="categories">
-                <div class="categorie_bar">
-                  <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="categories_bar_icon">
-                </div>
-              </div>
+
+              <div class="categories right_bar2">
+            <div class="right_bar_moji">
+              <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="bar2">
+            </div>
+          </div>
+          <div class="categories right_bar2">
+            <div class="right_bar_moji">
+              <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="bar2">
+            </div>
+          </div>
+          <div class="categories right_bar2">
+            <div class="right_bar_moji">
+              <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="bar2">
+            </div>
+          </div>
+          <div class="categories right_bar2">
+            <div class="right_bar_moji">
+              <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="bar2">
+            </div>
+          </div>
+          <div class="categories right_bar2">
+            <div class="right_bar_moji">
+              <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="bar2">
+            </div>
+          </div>
+          <div class="categories right_bar2">
+            <div class="right_bar_moji">
+              <span>カテゴリー名</span><img src="images/top/next_icon_gray.png" class="bar2">
+            </div>
+          </div>
 
 
               <div class="about">
@@ -402,16 +401,16 @@
         
  	  </footer>
       <script src="http://code.jquery.com/jquery.js"></script>
-      <script src="js/bootstrap.min.js"></script>
+      <!-- <script src="js/bootstrap.min.js"></script> -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-      <script type="text/javascript" src="js/style.js"></script>
-    <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+      <script type="text/javascript" src="style.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 
 
 
-   <!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
 
 
 
